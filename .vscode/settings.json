@@ -1,3 +1,17 @@
 {
-    "git.ignoreLimitWarning": true
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": false,
+            "driver": "MariaDB",
+            "name": "@localhost",
+            "username": "root",
+            "database": "shop"
+        }
+    ]
 }
