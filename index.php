@@ -1,4 +1,10 @@
+
+
+
+
 <?php
+ob_start();
+
 //include hedaer.php file
 include('header.php');
 ?>

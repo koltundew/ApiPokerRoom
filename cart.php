@@ -1,5 +1,7 @@
 <?php
 //include hedaer.php file
+ob_start();
+
 include('header.php');
 ?>
 
@@ -28,3 +30,4 @@ include('templates/_new-phones.php')
 //include footer.php file
 include('footer.php');
 ?>
+
